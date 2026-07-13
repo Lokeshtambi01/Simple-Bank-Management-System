@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Management System</title>
+    <style type="text/css">
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0f4c81, #1e88e5);
+}
+
+.container{
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+h1{
+    margin-bottom: 10px;
+    color: #0f4c81;
+}
+
+
+p{
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #0f4c81;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #1e88e5;
+    transform: translateY(-3px);
+}
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to Bank Management System</h1>
+        <p>Secure, Fast & Reliable Banking Services</p>
+
+        <div class="buttons">
+            <a href="Register.jsp" class="btn">Register</a>
+            <a href="Login.jsp" class="btn">Login</a>
+        </div>
+    </div>
+
+</body>
+</html>
